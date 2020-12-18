@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/poke-catch/static/js/main.cab6234e.chunk.js",
-    "main.js.map": "/poke-catch/static/js/main.cab6234e.chunk.js.map",
+    "main.js": "/poke-catch/static/js/main.79842589.chunk.js",
+    "main.js.map": "/poke-catch/static/js/main.79842589.chunk.js.map",
     "runtime-main.js": "/poke-catch/static/js/runtime-main.9821d143.js",
     "runtime-main.js.map": "/poke-catch/static/js/runtime-main.9821d143.js.map",
-    "static/js/2.c47c253b.chunk.js": "/poke-catch/static/js/2.c47c253b.chunk.js",
-    "static/js/2.c47c253b.chunk.js.map": "/poke-catch/static/js/2.c47c253b.chunk.js.map",
+    "static/js/2.abbb63fd.chunk.js": "/poke-catch/static/js/2.abbb63fd.chunk.js",
+    "static/js/2.abbb63fd.chunk.js.map": "/poke-catch/static/js/2.abbb63fd.chunk.js.map",
     "static/js/3.4c509e90.chunk.js": "/poke-catch/static/js/3.4c509e90.chunk.js",
     "static/js/3.4c509e90.chunk.js.map": "/poke-catch/static/js/3.4c509e90.chunk.js.map",
     "index.html": "/poke-catch/index.html",
-    "static/js/2.c47c253b.chunk.js.LICENSE.txt": "/poke-catch/static/js/2.c47c253b.chunk.js.LICENSE.txt",
+    "static/js/2.abbb63fd.chunk.js.LICENSE.txt": "/poke-catch/static/js/2.abbb63fd.chunk.js.LICENSE.txt",
     "static/media/card-bg-2.add21eed.png": "/poke-catch/static/media/card-bg-2.add21eed.png",
     "static/media/card-bg.4174bff3.png": "/poke-catch/static/media/card-bg.4174bff3.png",
     "static/media/landing-bg1.bbd1d06b.png": "/poke-catch/static/media/landing-bg1.bbd1d06b.png",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9821d143.js",
-    "static/js/2.c47c253b.chunk.js",
-    "static/js/main.cab6234e.chunk.js"
+    "static/js/2.abbb63fd.chunk.js",
+    "static/js/main.79842589.chunk.js"
   ]
 }
