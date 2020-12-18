@@ -223,8 +223,6 @@ const PokemonDetailCard = (props) => {
 		)
 	}
 
-	console.log(data)
-
 	return (
 		state.isError
 			? errorRender()

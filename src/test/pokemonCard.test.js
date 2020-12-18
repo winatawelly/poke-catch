@@ -20,8 +20,4 @@ it("show pokemon card" , async () => {
             />
         </PokedexContext.Provider>
     )
-    
-    console.log(wrapper.debug())
-
-    
 });

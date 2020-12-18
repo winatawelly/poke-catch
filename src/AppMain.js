@@ -36,8 +36,8 @@ const AppMain = () => {
 
     return (
         <PokedexContext.Provider value={{pokedex: state.pokedex, updatePokedex, removeFromPokedex}}>
+            <Route exact path="/" component={HomePage}/>
             <Switch>
-                <Route exact path="/" component={HomePage}/>
                 <Route exact path="/play" component={PlayPage}/>
                 <Route exact path="/detail/:pokemonName" component={DetailPage}/>
                 <Route exact path="/pokedex" component={PokedexPage}/>

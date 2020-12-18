@@ -94,7 +94,6 @@ const PlayPage = () => {
 
         )
     }
-    console.log(state)
     return (
         <div
             css={Styles.root}
