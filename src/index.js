@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { createBrowserHistory } from "history";
+import { HashRouter } from "react-router-dom";
+import { StylesProvider } from "@material-ui/core/styles";
+
+import { ApolloProvider } from '@apollo/client';
+import ApolloClient from './apollo'
+
+import AppMain from './AppMain'
+
+// import './index.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+var hist = createBrowserHistory();
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter history={hist}>
+    <StylesProvider injectFirst>
+      <ApolloProvider client={ApolloClient}>
+        <AppMain/>
+      </ApolloProvider>
+    </StylesProvider>
+  </HashRouter>,
   document.getElementById('root')
 );
 
