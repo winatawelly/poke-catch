@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserHistory } from "history";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { StylesProvider } from "@material-ui/core/styles";
 
 import { ApolloProvider } from '@apollo/client';
@@ -16,13 +16,13 @@ import reportWebVitals from './reportWebVitals';
 var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <BrowserRouter history={hist}>
+  <HashRouter history={hist}>
     <StylesProvider injectFirst>
       <ApolloProvider client={ApolloClient}>
         <AppMain/>
       </ApolloProvider>
     </StylesProvider>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
